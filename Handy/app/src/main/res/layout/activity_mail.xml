@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+xmlns:tools="http://schemas.android.com/tools"
+    
+tools:context="com.example.real.handyhealthcare.MailActivity"
+    
+android:layout_width="match_parent"
+    
+android:layout_height="match_parent"
+    
+android:paddingLeft="20px"
+    
+android:paddingRight="20px"
+    
+android:orientation="horizontal"
+>
+
+    
+<EditText
+ android:id="@+id/etTo"
+        
+android:layout_width="wrap_content"
+        
+android:layout_height="wrap_content"
+        
+android:layout_alignParentRight="true"
+        
+android:layout_alignParentTop="true"
+        
+android:layout_marginRight="22dp"
+        
+android:layout_marginTop="16dp"
+        
+android:ems="10" />
+
+    
+<EditText
+ android:id="@+id/etSub"
+        
+android:layout_width="wrap_content"
+        
+android:layout_height="wrap_content"
+        
+android:layout_alignLeft="@+id/etTo"
+        
+android:layout_below="@+id/etTo"
+        
+android:layout_marginTop="18dp"
+        
+android:ems="10" >
+    
+</EditText>
+
+    
+<EditText
+ android:id="@+id/etMsg"
+        
+android:layout_width="wrap_content"
+        
+android:layout_height="wrap_content"
+        
+android:layout_alignLeft="@+id/etSub"
+        
+android:layout_below="@+id/etSub"
+        
+android:layout_marginTop="28dp"
+        
+android:ems="10"
+        
+android:inputType="textMultiLine" />
+
+    
+<TextView
+ android:id="@+id/textView1"
+        
+android:layout_width="wrap_content"
+        
+android:layout_height="wrap_content"
+        
+android:layout_alignBaseline="@+id/etTo"
+        
+android:layout_alignBottom="@+id/etTo"
+        
+android:layout_alignParentLeft="true"
+        
+android:text="To:" />
+
+    
+<TextView
+ android:id="@+id/textView2"
+        
+android:layout_width="wrap_content"
+        
+android:layout_height="wrap_content"
+        
+android:layout_alignBaseline="@+id/etSub"
+        
+android:layout_alignBottom="@+id/etSub"
+        
+android:layout_alignParentLeft="true"
+        
+android:text="Subject:" />
+
+    
+<TextView
+ android:id="@+id/textView3"
+        
+android:layout_width="wrap_content"
+        
+android:layout_height="wrap_content"
+        
+android:layout_alignBaseline="@+id/etMsg"
+        
+android:layout_alignBottom="@+id/etMsg"
+        
+android:layout_alignParentLeft="true"
+        
+android:text="Message:" />
+
+    
+<Button
+ android:id="@+id/btSend"
+        
+android:layout_width="wrap_content"
+        
+android:layout_height="wrap_content"
+        
+android:layout_alignLeft="@+id/etMsg"
+        
+android:layout_below="@+id/etMsg"
+        
+android:layout_marginLeft="76dp"
+        
+android:layout_marginTop="20dp"
+        
+android:text="Send" />
+
+    
+</RelativeLayout>
+

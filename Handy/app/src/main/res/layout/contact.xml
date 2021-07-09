@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+     android:textColor="#B03060"
+    android:text="Handy Health Care"
+    android:textSize="30dp"
+    android:textStyle="bold" />
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:text="Handy Health Care is a health android application that attempts to mitigate the poor ruler dwellers access to health care, overstretching of hospital,quick response and amelioration as well as cost effective and distance gap between doctor and patient by providing a way of flexibility and sustainability. "
+    android:textSize="20dp"
+    android:textStyle="bold" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:textColor="#565656"
+    android:text="Visit Us:  Flat No. B-204 Icon Residency Undri Pune - India."
+    android:textSize="20dp"
+    android:textStyle="bold" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:textColor="#565656"
+    android:text="Call Us: +91 7506118916"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textColor="#565656"
+        android:text="Email Us: benjaminfidel.bca@gmail.com"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+	
+	<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+        android:textColor="#565656"
+    android:text=" handyhealthcare@gmail.com"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+	
+	
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:textColor="#3f000f"
+    android:text="App Developed By: Chijioke Benjamin Agbo"
+    android:textSize="15dp"
+    android:textStyle="bold" />
+
+
+</LinearLayout>
+</ScrollView>

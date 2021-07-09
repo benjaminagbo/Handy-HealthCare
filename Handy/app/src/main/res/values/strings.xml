@@ -1,0 +1,39 @@
+<resources>
+    
+<string name="app_name">Handy Health Care</string>
+    
+<string name="user_credentials">"USER_CREDENTIALS</string>
+    
+<string name="doctor_leaves">DOCTOR_LEAVES</string>
+    
+<string name="doctor_slot">DOCTOR_SLOT</string>
+    
+<string name="all_doctor_slots">all_doctor_slots</string>
+    
+<string name="all_pending_appointment">all_pending_appointment</string>
+ <string name="doctor_patient">DOCTOR_PATIENT</string>
+ <string name="staff">STAFF</string>
+ <string name="google_maps_api_key" />
+ <string name="title_activity_maps">Map</string>
+
+ <string name="no_users_found">No users found!</string>
+
+ <string name="login">Login</string>
+
+ <string name="username">username</string>
+
+ <string name="click_here_to_register">Click here to register</string>
+
+ <string name="write_a_message">Type a message</string>
+
+ <string name="click_here_to_login">Click here to login</string>
+
+ <string name="password">password</string>
+
+ <string name="register">Register</string>
+
+
+
+
+
+</resources>
